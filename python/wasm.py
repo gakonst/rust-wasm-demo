@@ -11,7 +11,7 @@ result = f(2, 37)
 assert result == 39
 
 # Note that even though we defined the function only for u32, negative numbers
-# can be used since Python is not type safe
+# can be used since Python is not type safe (or is this a WASM thing?)
 result = f(-5, -10)
 assert result == -15
 
